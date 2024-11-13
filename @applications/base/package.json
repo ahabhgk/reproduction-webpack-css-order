@@ -5,8 +5,8 @@
     "@libraries/teaser": "workspace:*"
   },
   "devDependencies": {
-    "@rspack/cli": "^0.5.9",
-    "@rspack/core": "^0.5.9",
+    "@rspack/cli": "1.1.1",
+    "@rspack/core": "1.1.1",
     "postcss": "^8.4.31",
     "postcss-loader": "^7.3.3",
     "typescript": "^5.2.2"

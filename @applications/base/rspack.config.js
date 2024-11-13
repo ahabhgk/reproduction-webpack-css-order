@@ -30,6 +30,9 @@ module.exports = {
         use: {
           loader: 'postcss-loader', // Optional, if you need PostCSS processing
         },
+        parser: {
+          namedExports: false,
+        }
       },
     ],
   },
@@ -40,6 +43,9 @@ module.exports = {
     extensions: ['.ts', '.js'],
   },
   optimization: {
-    minimize: true,
+    minimize: false,
   },
+  experiments: {
+    css: true,
+  }
 };
